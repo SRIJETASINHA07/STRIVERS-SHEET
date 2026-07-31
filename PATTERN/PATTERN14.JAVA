@@ -5,6 +5,7 @@ public class Pattern {
         for (int row = 1; row <= n; row++) {
             for (char ch = 'A'; ch < 'A' + row; ch++) {
                 System.out.print(ch);
+
             }
             System.out.println();
         }
